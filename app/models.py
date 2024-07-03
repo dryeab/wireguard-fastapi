@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import Optional
 
 class ClientRegistration(BaseModel):
     client_id: str
@@ -7,7 +8,7 @@ class ClientRegistration(BaseModel):
 
 class ClientInfo(BaseModel):
     client_id: str
-    ip_address: str = None
+    ip_address: Optional[str] = None  
     geo_location: str
     internet_speed: str
     proxy_port: int
