@@ -2,9 +2,9 @@
 
 # Replace these variables with appropriate values
 API_URL="http://localhost:8000"
-CLIENT_ID="your_client_id"
-GEO_LOCATION="your_geo_location"
-INTERNET_SPEED="your_internet_speed"
+CLIENT_ID="client_id"
+GEO_LOCATION="geo_location"
+INTERNET_SPEED="internet_speed"
 WG_CONF_PATH="/etc/wireguard/wg0.conf"
 
 # Register the client and get the WireGuard configuration
